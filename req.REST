@@ -1,0 +1,24 @@
+POST http://localhost:4000/api/v3/app/event
+Content-Type: application/json
+
+{
+    "event": "Delhi"
+}
+###
+GET http://localhost:4000/api/v3/app/events
+Content-Type: application/json
+
+###
+PUT http://localhost:4000/api/v3/app/event/62e007ebaece8a058c72a7d8
+Content-Type: application/json
+
+{
+    "event": "AYush1"
+}
+###
+DELETE   http://localhost:4000/api/v3/app/event/62e007ebaece8a058c72a7d8
+Content-Type: application/json
+
+{
+    "event": "AYush1"
+}
